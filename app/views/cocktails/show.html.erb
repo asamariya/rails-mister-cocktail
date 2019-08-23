@@ -5,6 +5,7 @@
   <ul>
     <% @cocktail.doses.each do |dose| %>
       <li>
+        <%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
         <%= dose.description %> of <%= dose.ingredient.name %>
         <i class="fas fa-trash-alt">
         <%= link_to 'Delete this dose', dose_path(dose), method: :delete, data: { confirm: "Are you sure?" } %>
