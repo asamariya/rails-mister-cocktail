@@ -12,7 +12,7 @@ Ingredient.create!(name: "whiskey")
 Ingredient.create!(name: "milk")
 
 
-Cocktail.create!(name: "Mint Julep", )
+Cocktail.create!(name: "Mint Julep")
 Cocktail.create!(name: "Whiskey Sour")
 Cocktail.create!(name: "Mojito")
 Cocktail.create!(name: "Negroni")
